@@ -1,4 +1,4 @@
-# CSE 430: Compiler Design - Lab Problem 1
+# CSE 430: Compiler Design - Lab Work 1
 
 ## Problem Statement
 
