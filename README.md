@@ -14,6 +14,12 @@ This repository contains simple Python and Flex implementations for CSE 430 Comp
   - `Lab_Work_3.md`
   - `lab3_lexical_analyzer.l`
   - `sample_input_3.c`
+- `Lab Work 4/`
+  - `Lab_Work_4.md`
+  - `lab4_left_recursion.py`
+- `Lab Work 5/`
+  - `Lab_Work_5.md`
+  - `lab5_three_address_code.py`
 
 ## Lab Work 1
 
@@ -91,11 +97,39 @@ remove the executable and generated C file after running to keep the directory c
 rm lab3_lexical_analyzer lex.yy.c
 ```
 
+## Lab Work 4
+
+Topic: Removing left recursion from grammar
+
+Run from `Lab Work 4`:
+
+```bash
+py lab4_left_recursion.py
+```
+
+## Lab Work 5
+
+Topic: Three Address Code generation
+
+Run from `Lab Work 5`:
+
+```bash
+py lab5_three_address_code.py
+```
+
+You can also pass a file path:
+
+```bash
+py lab5_three_address_code.py input.txt
+```
+
 ## Purpose
 
 - Lab Work 1 practices token identification.
 - Lab Work 2 practices symbol table design using hashing and chaining.
 - Lab Work 3 practices lexical analysis using Flex.
+- Lab Work 4 practices eliminating left recursion in grammar productions.
+- Lab Work 5 practices generating TAC from infix expressions with precedence.
 
 ## Author
 
